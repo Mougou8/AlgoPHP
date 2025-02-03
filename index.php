@@ -1,0 +1,1 @@
+<a href="./partie1">Partie 1</a>
