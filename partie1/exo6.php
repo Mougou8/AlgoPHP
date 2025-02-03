@@ -6,19 +6,34 @@
     (exprimé en décimal.Ex : écrire20 % ->0.2) 
 </p>
 
+<h3>Résultat</h3>
+
 <?php
 
  $prixHT = (float)"9.99";
  $nbArticles = (int) "5";
- $tauxTVA = (float)"0.20";
- $totalHT = "$prixHT * $nbArticles";
- $totalTTC = "59.94";
+ $totalHT = $prixHT * $nbArticles;
+ echo "Le total HT est egal de $totalHT <br>";
+
+ $tauxTVA = 0.20;
+ $totalTTC = $prixHT * $nbArticles + $prixHT * $nbArticles * $tauxTVA ;
+ echo "Le total de TTC est de $totalTTC <br>";
+
+
+
+
+
+
+
+
+//  $tauxTVA = $totalHT = "$prixHT * $nbArticles";
+
  
- $totalTTC = "$prixHT * $nbArticles. * . 
-        $totalHT * $tauxTVA;
-
-echo " $totalTTC totalTTC.<br>";
+//  $totalTTC = "$prixHT * $nbArticles. * . 
+//         $totalHT * $tauxTVA;
 
 
+        
 
- hgkgikuguhlklk
+
+ 

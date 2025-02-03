@@ -1,22 +1,30 @@
 <h1>Exercice 4</h1>
 
-<p>Ecrire</p>un algorithme permettant de savoir
+<p>Ecrire un algorithme permettant de savoir
 si une phrase est palindrome.
-
+</p>
 <h2>Résultat</h2>
 
 <?php
 
-function estPalindrome($phrase) {
-    // $phrase_nettoyee = pre_replace('/[^a-zA-Z0-9]/','',
-    // strtolower($phrase));
-    // return $phrase_nettoyee === strrev($phrase_nettoyee);
- }
-    $phrase = "Engage le jeu que je le gagne";
-  if (estPalindrome($phrase)) {
-    echo "Oui, c'est palindrome<br>";
-} else {
-    echo "Non, ce n'est pas palindrome<br>";
+
+
+$phrase = "Engage le jeu que je le gagne";
+
+$lower = strtolower ($phrase);
+// var_dump($lower);
+$lowerSansEspace = str_replace(' ',"",$lower);
+// var_dump($lowerSansEspace);
+
+$reverse = strrev($lowerSansEspace);
+
+
+if ( $lowerSansEspace == $reverse){
+    echo "la phrase est palindrome";
+
+}else {
+
+  echo "La phrase n'est pas palindrome<br>";
 }
 
 
