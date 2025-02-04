@@ -21,16 +21,12 @@
 $age = 32;
 $sexe = "F";
 
-if($age >= 18 && $age <=35  && $sexe = "F"){
-    $resultat = "F";
+if(($sexe == "F" && $age >= 18  && $age <= 35) || ($sexe == "H" && $age >  20)) {
+     
+    echo " La personne est imposable <br>";
 } else {
-    $resultat = "H";
+    echo " La phrase est non imposable<br>";
+
+       
 }
-
-
-if($age > 20){
-    $resultat = "H";
-};
-
-echo $resultat;
 
