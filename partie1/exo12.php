@@ -36,35 +36,31 @@ $salutations = [
     "ENG" =>  "Hello",
     
 ];
-    
-    foreach($prenoms as $prenom => $langue)
       
-if (array_key_exists($langue, $salutations)){
-   echo $salutations[$langue]." ". $prenom."<br>";
+ function salutations($prenom, $langue){
 
-}
-echo "<br>";
-ksort ($prenoms);
-foreach($prenoms as $prenom => $langue)
-if (array_key_exists($langue, $salutations)){
-    echo $salutations[$langue]." ". $prenom."<br>";
  
- }
+     switch ($langue ){
+        case "FRA": echo "Bonjour .$prenom. !";
+        break;
+        case "ENG": echo "Hello .$prenom. !";
+        break;
+        case "ESP": echo "Ola.$prenom. !";
+        break;
+         }
+      
+         
+     }
+
+
+     salutations("Virgile", "FRA");
+
+
+
+
 
 
     
-    
-//  $prenoms = "Mickaël"
-//      switch ($prenoms) {
-//         case "Mickaël" :
-//             echo "Salut Mickaël";break;
-//         case "Virgile" :
-//             echo "Hola Virgile";break;
-//         case "Marie-Claire" :
-//             echo "Hello Marie-Claire";   
-//      }
-
-
     
 
 

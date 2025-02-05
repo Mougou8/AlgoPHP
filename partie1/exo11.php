@@ -26,7 +26,7 @@ $marques = ["Peugeot", "Renault", "BMW", "Mercedes"];
 $nbMarques = count($marques);
 // var_dump($nbMarques);
 for($i = 0; $i < $nbMarques ; $i++) {
-    // echo $marques [$i]."<br>";
+    
 }
 echo "<ul>";
 

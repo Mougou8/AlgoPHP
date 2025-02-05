@@ -26,14 +26,6 @@
 
 
 
-//  $tauxTVA = $totalHT = "$prixHT * $nbArticles";
-
- 
-//  $totalTTC = "$prixHT * $nbArticles. * . 
-//         $totalHT * $tauxTVA;
-
-
-        
 
 
  

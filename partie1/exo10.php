@@ -28,7 +28,7 @@ $nb5 = 0;
 $nb2 = 0; 
 $reste = 0; 
 
-// tant que le reste à reste à payer est supérieur à 10 , je rend un billet de 10 donc le nb de billet de 10 rendu augmente de 1 et le montant a rendre diminue de 10 
+ 
  
 while($reste_a_payer > 10){
  
@@ -51,27 +51,3 @@ echo "Le total du reste à payer = $reste_a_payer<br>";
 echo "$nb10 billets de 10 € - "." "."$nb5 billet de 5 € - "." "."$nb2 pièce de 2 € - ".""."$reste_a_payer pièce de 1 €";
 
 
-// echo $total = (4*$billets_10 " " $billet_5 " " $piece_2 " " $piece_1);
-
-
-// var_dump($total)
-
-
-// echo 
-
-//     echo "Le reste à payer est egal à $montant_versé - $montant_a_payer <br>";
-
-// $renduMonnaie
-//     $billets = [10, 5];
-//     $pieces = [2,1];
-//     $resultat = []
-
-
-
-// function $renduMonnaie ($montant_payer , $montant_versé){
-//       $reste_a_payer = $montant_versé-$montant_payer;
-// }
-// echo "Montant à payer : $montant_a_payer<br>";
-// echo "Montant versé : $montantversé<br>";
-// echo "Reste à payer : $reste_a_payer<br>";
-// echo "Rendu monnaie : $renduMonnaie<br>;

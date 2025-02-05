@@ -23,6 +23,4 @@ $valeurEuros = convertirFrancsEnEuros($valeurFrancs);
 
 echo "$valeurFrancs francs = $valeurEuros euros<br>";
 
-//  echo "la valeur en francs convertit en euros et le résultat arrondi
-// à 2 décimales.<br>";
 
