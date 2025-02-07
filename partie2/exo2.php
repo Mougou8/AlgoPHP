@@ -10,7 +10,7 @@
 <h2>Resultat</h2>
 
 <table border=1>
-    <!-- Entête du tableau-->
+    Entête du tableau
     <thead>
         <tr>
             <th>Pays</th>
@@ -18,7 +18,7 @@
         </tr>
 
     </thead>
-    <!-- Corps du tableau -->
+    Corps du tableau
      <tbody>
         <tr>
             <td>France</td>
